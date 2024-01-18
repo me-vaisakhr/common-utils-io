@@ -1,5 +1,5 @@
 {
-  "name": "common-utilities",
+  "name": "common-utils-io",
   "version": "0.0.1",
   "description": "Library for utils",
   "main": "index.ts",
