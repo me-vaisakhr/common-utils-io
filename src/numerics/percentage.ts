@@ -6,9 +6,9 @@
  * @returns percentage as number
  */
 const getPercentageFromValue = (
-  value: number,
-  outOf: number,
-  percentageIn: number = 100
+	value: number,
+	outOf: number,
+	percentageIn: number = 100
 ) => (value / outOf) * percentageIn;
 
 /**
@@ -19,9 +19,9 @@ const getPercentageFromValue = (
  * @returns value as number
  */
 const getValueFromPercentage = (
-  percent: number,
-  outOf: number,
-  percentageIn: number = 100
+	percent: number,
+	outOf: number,
+	percentageIn: number = 100
 ) => (percent * outOf) / percentageIn;
 
 export { getPercentageFromValue, getValueFromPercentage };
