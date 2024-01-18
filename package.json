@@ -3,12 +3,25 @@
   "version": "0.0.1",
   "description": "Library for utils",
   "main": "index.ts",
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/me-vaisakhr/utils-io.git"
+  },
+  "bugs": "https://github.com/me-vaisakhr/utils-io/issues",
+  "homepage": "https://github.com/me-vaisakhr/utils-io#readme",
+  "keywords": [
+      "utilities",
+  ],
+  "author": {
+      "name": "Brad Garropy",
+      "email": "bradgarropy@gmail.com",
+      "url": "https://bradgarropy.com"
+  },
   "scripts": {
     "lint": "eslint --fix",
     "test": "jest",
     "prepare": "husky install"
   },
-  "author": "me-vaisakhr",
   "license": "MIT",
   "dependencies": {
     "typescript": "^5.3.3"
