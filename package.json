@@ -4,7 +4,8 @@
   "description": "Library for utils",
   "main": "index.ts",
   "scripts": {
-    "test": "jest --bail",
+    "lint": "eslint --fix",
+    "test": "jest",
     "prepare": "husky install"
   },
   "author": "me-vaisakhr",

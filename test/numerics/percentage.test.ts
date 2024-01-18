@@ -3,7 +3,7 @@ import {
 	getValueFromPercentage,
 } from "../../src/numerics/percentage";
 
-describe("Percentage", () => {
+describe("numerics/percentage", () => {
     
 	describe("Getting percentage from value", () => {
 		it("should give percentage correctly", () => {
