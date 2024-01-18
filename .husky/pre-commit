@@ -1,4 +1,17 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
+# Check if tests exist for each TypeScript file in the src directory
+for ts_file in $(find src -type f -name "*.ts"); do
+    # test_file="${ts_file%.*}.test.ts"
+    # test_file="test/$(basename "${ts_file%.*}").test.ts"
+    test_file="$(echo "$ts_file" | sed 's/src\//test\//;s/\.ts$/.test.ts/')"
+
+    if [ ! -e "$test_file" ]; then
+        echo "Error: Test for $ts_file is missing. Please add $test_file and its tests before committing."
+        exit 1  # Abort the commit
+    fi
+done
+
+npm run lint
 npm test
