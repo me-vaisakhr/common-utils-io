@@ -1,5 +1,5 @@
 {
-  "name": "utility-functions",
+  "name": "common-utilities",
   "version": "0.0.1",
   "description": "Library for utils",
   "main": "index.ts",
