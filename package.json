@@ -1,5 +1,5 @@
 {
-  "name": "utils-io",
+  "name": "utilityFns-io",
   "version": "0.0.1",
   "description": "Library for utils",
   "main": "index.ts",
