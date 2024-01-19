@@ -1,6 +1,6 @@
 {
   "name": "common-utils-io",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Library for utils",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
