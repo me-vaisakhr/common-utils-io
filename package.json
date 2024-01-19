@@ -1,6 +1,6 @@
 {
   "name": "common-utils-io",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Library for utils",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -11,7 +11,7 @@
     "url": "https://github.com/me-vaisakhr/utils-io.git"
   },
   "files": [
-    "dist",
+    "dist/",
     "package.json",
     "README.md",
     "LICENSE.md"
