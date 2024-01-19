@@ -30,7 +30,7 @@
     "lint": "eslint --fix",
     "clean:prebuild": "rimraf dist",
     "clean:postbuild": "rimraf dist/test",
-    "build": "npm run clean:prebuild && tsup ./src/index.ts && npm run clean:postbuild",
+    "build": "npm run clean:prebuild && tsup ./src/index.ts",
     "test": "jest",
     "prepare": "husky install"
   },
