@@ -1,3 +1,4 @@
 .husky
 .github
 tsconfig.json
+dist/
