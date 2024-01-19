@@ -1,4 +1,6 @@
-.husky
-.github
-tsconfig.json
-dist/
+# Exclude all files except the necessary ones
+/*
+!/dist/
+!/package.json
+!/README.md
+!/LICENSE.md

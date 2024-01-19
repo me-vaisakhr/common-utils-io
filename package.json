@@ -10,6 +10,12 @@
     "type": "git",
     "url": "https://github.com/me-vaisakhr/utils-io.git"
   },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "LICENSE.md"
+  ],  
   "bugs": "https://github.com/me-vaisakhr/utils-io/issues",
   "homepage": "https://github.com/me-vaisakhr/utils-io#readme",
   "keywords": [
