@@ -1,9 +1,8 @@
 {
   "name": "common-utils-io",
-  "version": "0.1.3",
-  "description": "Library for utils",
+  "version": "0.1.4",
+  "description": "Collection of utility functions",
   "main": "dist/index.js",
-  "module": "dist/index.mjs",
   "type": "module",
   "types": "dist/index.d.ts",
   "repository": {
@@ -15,16 +14,16 @@
     "package.json",
     "README.md",
     "LICENSE.md"
-  ],  
+  ],
   "bugs": "https://github.com/me-vaisakhr/utils-io/issues",
   "homepage": "https://github.com/me-vaisakhr/utils-io#readme",
   "keywords": [
     "utilities"
   ],
   "author": {
-    "name": "Brad Garropy",
-    "email": "bradgarropy@gmail.com",
-    "url": "https://bradgarropy.com"
+    "name": "Vaisakh R Krishnan",
+    "email": "vaisakhr.me@gmail.com",
+    "url": "https://me-vaisakhr.github.io/portfolio"
   },
   "scripts": {
     "lint": "eslint --fix",
@@ -48,5 +47,10 @@
     "ts-node": "^10.9.2",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "peerDependencies": {
   }
 }
